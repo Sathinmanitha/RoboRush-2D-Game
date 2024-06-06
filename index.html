@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robo Rush</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="dp" href="resources/Idle (1).png">
+</head>
+<body class="body" onload="idleAnimationStart(); createBoxes();" onkeypress="keyCheck(event);">
+    <div class="background" id="background">
+        <img src="resources/Idle (1).png" class="robo" id="robo">
+
+        <div class="score" id="score">0</div>
+        
+    </div>
+
+    <div class="end" id="end">
+        <div class="end-rectangle">
+            <div style="color: rgb(255, 0, 0); font-size: 5rem;">Game Over</div>
+            <div style="color: rgb(251, 255, 0); font-size: 2rem;" >Your Score</div>
+            <div style="color: rgb(255, 255, 255);" id="endScore">0</div>
+            <button class="btn" onclick="reload();">Try Again</button>
+        </div>
+    </div>
+
+    <div class="win" id="win">
+
+        <div class="win-rectangle">
+            <div class="wi"></div>
+            <div style="color: rgb(255, 255, 255); font-size: 5rem; ">CONGRATULATION</div>
+            <button class="btn3" onclick="restartGame();">Next Level</button>
+
+    
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
