@@ -2,7 +2,7 @@
 
 👉 RoboRush-2D-Game is a 2D platformer developed to provide an engaging gaming experience. The game features a brave robot navigating through various levels filled with obstacles, enemies, and puzzles. This project is a freelancing project.
 
-[https://github.com/Sathinmanitha/RoboRush-2D-Game/assets/140915682/3ca7e171-5494-42a6-a03c-65b1f05b84c3](https://github.com/Sathinmanitha/RoboRush-2D-Game/assets/140915682/f49d65e9-ef41-42a2-9484-1f45376a5c24)
+https://github.com/Sathinmanitha/RoboRush-2D-Game/assets/140915682/aa0c2622-0d53-42d8-9013-391d054adf24
 
 
 <h3 align="left">Languages and Tools:</h3>
